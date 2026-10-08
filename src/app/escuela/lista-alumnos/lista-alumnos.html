@@ -88,6 +88,7 @@
       <div class="flex justify-end mt-5">
  
         <button
+          (click)="muestraAlumnos()"
           type="submit"
          
           class="text-white bg-blue-700 hover:bg-blue-800
@@ -103,5 +104,11 @@
     </div>
  
   </form>
+
+  <h1>Lista Alumno</h1>
+  <h2>Matricula: {{nuevoAlumno.matricula}}</h2>
+  <h2>Nombre: {{nuevoAlumno.nombre}}</h2>
+  <h2>Correo: {{nuevoAlumno.correo}}</h2>
+  <h2>Materia: {{nuevoAlumno.materia}}</h2>
  
 </div>
